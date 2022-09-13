@@ -22,7 +22,7 @@ function MonthlyPayment() {
   const balanceData = [];
   for (let i = 0; i <= 12; i++) {
     balanceData.push({
-      balance: balance - payMonthly * i,
+       balance: balance - payMonthly * i >= 0 ? balance - payMonthly * i : "",
       month: i,
     });
   }
