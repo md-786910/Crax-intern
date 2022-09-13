@@ -48,7 +48,7 @@ function MonthlyPayment() {
         <div className="paymentMonthly">
           <label htmlFor="in">
             Monthly Balance
-            <input type="text" name="mBal" id="in" defaultValue={payMonthly} />
+            <input type="text" name="mBal" id="in" value={payMonthly} />
           </label>
         </div>
         <hr />
